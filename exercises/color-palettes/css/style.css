@@ -1,12 +1,110 @@
 #style-1-heading {
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   
 }
 
 #style-1-block-1 {
     background-color: #D62839;
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    padding: 10px;
+    padding: 24px;
+    color: black;
+}
+
+#style-1-block-2 {
+    background-color: #BA324F;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 24px;
+    color: black;
+}
+
+#style-1-block-3 {
+    background-color: #175676;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 24px;
+    color: black;
+}
+
+#style-1-block-4 {
+    background-color: #4BA3C3;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 24px;
+    color: black;
+}
+
+#style-2-heading {
+    text-align: center;
+    font-family: cursive;
+}
+
+#style-2-block-1 {
+    background-color: #03256C;
+    text-align: center;
+    font-family: cursive;
+    padding: 24px;
+    color: white;
+}
+
+#style-2-block-2 {
+    background-color: #2541B2;
+    text-align: center;
+    font-family: cursive;
+    padding: 24px;
+    color: white;
+}
+
+#style-2-block-3 {
+    background-color: #1768AC;
+    text-align: center;
+    font-family: cursive;
+    padding: 24px;
+    color: white;
+}
+
+#style-2-block-4 {
+    background-color: #06BEE1;
+    text-align: center;
+    font-family: cursive;
+    padding: 24px;
+    color: white;
+}
+
+#style-3-heading {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#style-3-block-1 {
+    background-color: #79B791;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 24px;
+    color: tan;
+}
+
+#style-3-block-2 {
+    background-color: #ABD1B5;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 24px;
+    color: tan;
+}
+
+#style-3-block-3 {
+    background-color: #EDF4ED;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 24px;
+    color: tan;
+}
+
+#style-3-block-4 {
+    background-color: #51291E;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 24px;
+    color: tan;
 }
