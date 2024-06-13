@@ -13,13 +13,13 @@
 
 /* Drill 3 - Write your code solution below */
 .d3-h2 {
-    border-bottom: solid;
+    border-bottom: solid 3px black;
 }
 
 
 /* Drill 4 - Write your code solution below */
 #d4-navbar {
-    border-bottom: solid 2px black;
+    border-bottom: solid 5px black;
     background-color: orange;
 }
 
