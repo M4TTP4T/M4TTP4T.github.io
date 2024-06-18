@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.light-container {
+    background-color: darkcyan;
+    color: white;
+}
+
+.dark-container {
+    background-color: grey;
+}
+
+.single-column {
+    width: 50%;
+    margin: 0px auto;
+    text-align: center;
+    padding: 24px;
+}
+
+img {
+    width: 60%;
+}
