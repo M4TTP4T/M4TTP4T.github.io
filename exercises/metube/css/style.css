@@ -110,3 +110,7 @@ body {
 .metube-item .video-channel {
     margin-bottom: 4px;
 }
+
+img {
+    width: 250px;
+}
