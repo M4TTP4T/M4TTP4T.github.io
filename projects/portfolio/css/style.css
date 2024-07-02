@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-1 {
+    background-image: 
+        url("../images/Matte_Painting_Project_Final_103_MPatronas.jpg");
+    height: 80vh;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#hero-1 .hero-content {
+    text-align: right;
+    color: white;
+    padding: 5vh 8vw;
+}
+
+#hero-1 h2 {
+    font-size: 6vw;
+    margin-bottom: 3vh;
+}
+
+#hero-1 h4 {
+    font-size: 3vw;
+}
+
+.spacer {
+    height: 2vh;
+    background-color: #00ffff;
+}
+
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+#card-section {
+    background-color: #4c4c4c;
+    padding: 48px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    flex: 1;
+    border: 4px solid #00ffff;
+    padding: 26px;
+    text-align: center;
+    margin: 36px;
+}
+
+.card h3 {
+    font-size: 36px;
+    margin: 20px;
+}
+
+.card img {
+    width: 400px
+}
+
+.card a {
+    text-decoration: none;
+    color: white;
+}
+
+#layout {
+    max-width: 1400px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 24px;
+    border: 10px solid #333333;
+}
+
+.gallery img {
+    width: 100%;
+}
