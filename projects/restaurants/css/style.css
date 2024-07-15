@@ -1,0 +1,169 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(132, 181, 46);
+    padding: 24px;
+}
+
+#navbar .dropdown-container a:hover{
+    background-color: rgb(132, 99, 62);
+}
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-container a {
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 20px;
+}
+
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s;
+    z-index: 10;
+}
+
+.dropdown-container:last-child .dropdown-menu {
+    right: 0px;
+}
+
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+.dropdown-menu a {
+    background-color: rgb(163, 133, 82);
+    width: 100%;
+    min-width: 200px;
+}
+
+#navbar .dropdown-menu a:hover {
+    background: rgb(213, 228, 168);
+}
+
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+#main-section {
+    background-color: rgb(159, 196, 99);
+    padding: 48px;
+}
+
+.side-by-side {
+    display: flex;
+    align-items: center;
+    margin: 48px 0px;
+}
+
+.side-by-side .image-container {
+    flex: 1;
+}
+
+.side-by-side .text-container {
+    flex: 1;
+    padding: 36px;
+    color: white;
+}
+
+.side-by-side .image-container img {
+    width: 100%;
+}
+
+.side-by-side .text-container h3 {
+    font-size: 48px;
+}
+
+.side-by-side .text-container h4 {
+    font-size: 38px;
+}
+
+.side-by-side .text-container a {
+    font-size: 28px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgb(132, 99, 62);
+    color: rgb(132, 181, 46);
+    padding: 24px 48px;
+    border-radius: 48px;
+}
+
+.single-column1 {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+#card-section {
+    background-color: rgb(132, 99, 62);
+    color: rgb(132, 181, 46);
+    padding: 48px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    flex: 1;
+    border: 4px solid #cee4ae;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+    border-radius: 10px;
+}
+
+.card h3 {
+    font-size: 36px;
+    margin: 0px;
+}
+
+.card p {
+    font-size: 24px;
+    margin: 24px 0px 0px;
+}
+
+@media screen and (maw-width: 500px) {
+    #navbar {
+        flex-wrap: wrap;
+    }
+}
