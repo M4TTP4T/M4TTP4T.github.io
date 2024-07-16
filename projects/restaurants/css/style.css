@@ -28,8 +28,8 @@ body {
     margin-right: auto;
     font-weight: bold;
     font-size: 36px;
-    padding-top: 13px;
-    padding-bottom: 12px;
+    padding-top: 0px;
+    padding-bottom: 0px;
 }
 
 .dropdown-container {
@@ -39,7 +39,6 @@ body {
 .dropdown-container a {
     font-weight: bold;
     font-size: 20px;
-    margin-right: 20px;
 }
 
 .dropdown-menu {
@@ -69,6 +68,31 @@ body {
 
 #navbar .dropdown-menu a:hover {
     background: rgb(213, 228, 168);
+}
+
+#hero-5 {
+    background-image: url("../images/pexels-edwardeyer-1247755.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: flex-end;
+}
+
+#hero-5 .hero-content {
+    text-align: right;
+    color: white;
+    padding: 5vh 8vw;
+}
+
+#hero-5 h2 {
+    font-size: 6vw;
+    margin-bottom: 3vh;
+}
+
+#hero-5 h4 {
+    font-size: 3vw;
 }
 
 .single-column {
@@ -125,6 +149,7 @@ body {
     min-width: 600px;
     max-width: 1200px;
     margin: 0px auto;
+    display: flex;
 }
 
 img {
@@ -162,8 +187,33 @@ img {
     margin: 24px 0px 0px;
 }
 
-@media screen and (maw-width: 500px) {
-    #navbar {
-        flex-wrap: wrap;
+#footer {
+    background: linear-gradient(to bottom, rgb(168, 222, 132), #336a2e);
+    color: white;
+    padding: 12px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 800px) {
+    #navbar,
+    #footer-navbar {
+        flex-direction: column;
     }
+
+   .single-column1 {
+    flex-direction: column;
+    padding: 45px;
+   }
 }
