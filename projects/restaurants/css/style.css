@@ -61,7 +61,7 @@ body {
 }
 
 .dropdown-menu a {
-    background-color: rgb(163, 133, 82);
+    background-color: rgb(132, 99, 62);
     width: 100%;
     min-width: 200px;
 }
@@ -102,7 +102,7 @@ body {
 }
 
 #main-section {
-    background-color: rgb(159, 196, 99);
+    background-color: rgb(132, 99, 62);
     padding: 48px;
 }
 
@@ -139,8 +139,8 @@ body {
     font-weight: bold;
     text-decoration: none;
     display: inline-block;
-    background-color: rgb(132, 99, 62);
-    color: rgb(132, 181, 46);
+    background-color: rgb(213, 228, 168);
+    color: rgb(120, 168, 38);
     padding: 24px 48px;
     border-radius: 48px;
 }
@@ -155,22 +155,24 @@ body {
 img {
     width: 100%;
     border-radius: 10px;
+    margin-bottom: 25px;
 }
 
 #card-section {
     background-color: rgb(132, 99, 62);
-    color: rgb(132, 181, 46);
+    color: white;
     padding: 48px;
 }
 
 .card-container {
     display: flex;
     justify-content: space-between;
+    box-shadow: 20px black;
 }
 
 .card {
     flex: 1;
-    border: 4px solid #cee4ae;
+    background-color: rgb(157, 201, 81);
     padding: 36px;
     text-align: center;
     margin: 36px;
@@ -185,6 +187,7 @@ img {
 .card p {
     font-size: 24px;
     margin: 24px 0px 0px;
+    padding: 5px;
 }
 
 #footer {
